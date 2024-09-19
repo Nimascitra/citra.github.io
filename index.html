@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+        body {
+          font-family: Jost;
+        }
+        .jumbotron {
+          padding-top: 6rem;
+          background-color: #fffacd;
+        }
+        #gallery {
+          background-color: #fffacd;
+        }
+
+        section {
+          padding-top: 5rem;
+        }
+
+        nav ul li a:hover {
+          color: white;
+          text-decoration: underline;
+          font-weight: 600;
+        }
+
+    </style>
   </head>
   <body id="home">
     <!-- navbar -->
@@ -54,10 +79,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Hello everyone, my name is Nimas Citra Rachmawati, I am a twelfth grade student. I study at SMK Negeri 1 Pedan. I live in Pedan, Klaten. I took part in dance extracurriculars because I liked it</p>
+            <p class="mx-2">Hello everyone, my name is Nimas Citra Rachmawati, I am a twelfth grade student. I study at SMK Negeri 1 Pedan. I live in Pedan, Klaten. I took part in dance extracurriculars because I liked it</p>
           </div>
           <div class="col-md-4">
-            <p><img src="img/email.jpg" alt="email "> nimascitra10@gmail.com<br>
+            <p class="mx-2"><img src="img/email.jpg" alt="email "> nimascitra10@gmail.com<br>
               <img src="img/ig.png" alt="ig"> nimascitraa<br>
             <img src="img/tt.jpg" alt="tiktok"> nimasctraa_</p>
           </div>
@@ -73,48 +98,48 @@
             <div class="col">
               <h2 class="mb-5"> My Gallery </h2>
               <div class="row justify-content-center">
-                <div class="col-md-3 mb-4">
-                  <div class="card">
+                <div class="col-md-4 mb-4">
+                  <div class="card mx-2">
                     <img src="img/1.jpg" class="card-img-top" alt="gallery1">
                     <div class="card-body">
                       <p class="card-text">gambyong mari kangen<br>wisuda SMK N 1 Pedan 2024</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                  <div class="card">
+                <div class="col-md-4 mb-4">
+                  <div class="card mx-2">
                     <img src="img/2.jpg" class="card-img-top" alt="gallery2">
                     <div class="card-body">
                       <p class="card-text">gambyong pareanom<br>Bendungan, Cawas, Klaten</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                  <div class="card">
+                <div class="col-md-4 mb-4">
+                  <div class="card mx-2">
                     <img src="img/3.jpg" class="card-img-top" alt="gallery3">
                     <div class="card-body">
                       <p class="card-text">lurik payung<br>The Rich Jogja Hotel, Sleman</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                  <div class="card">
+                <div class="col-md-4 mb-4">
+                  <div class="card mx-2">
                     <img src="img/4.jpg" class="card-img-top" alt="gallery4">
                     <div class="card-body">
                       <p class="card-text">gambyong pareanom<br>HUT SMK N 1 Pedan ke-56</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                  <div class="card">
+                <div class="col-md-4 mb-4">
+                  <div class="card mx-2">
                     <img src="img/5.jpg" class="card-img-top" alt="gallery5">
                     <div class="card-body">
                       <p class="card-text">gambyong mari kangen<br>LKBB Prasaja 2024, SMK N 1 Pedan</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                  <div class="card">
+                <div class="col-md-4 mb-4">
+                  <div class="card mx-2">
                     <img src="img/6.jpg" class="card-img-top" alt="gallery6">
                     <div class="card-body">
                       <p class="card-text">gambyong pareanom<br>penyambutan bupati, Pedan, klaten</p>
@@ -140,19 +165,19 @@
           <div class="row justify-content-center">
             <div class="col-md-8">
               <form class="justify-content-center ">
-                <div class="mb-3">
+                <div class="mb-3 mx-2">
                   <label for="nama" class="form-label">Nama</label>
                   <input type="text" class="form-control" id="nama" aria-describedby="nama">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 mx-2">
                   <label for="email" class="form-label">Email</label>
                   <input type="email" class="form-control" id="nama" aria-describedby="email">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 mx-2">
                   <label for="pesan" class="form-label">Pesan</label>
                   <textarea class="form-control" id="Pesan" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-warning">Submit</button>
+                <button type="submit" class="btn btn-warning mx-2">Submit</button>
               </form>
             </div>
           </div>
